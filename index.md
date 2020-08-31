@@ -2,7 +2,7 @@
 
 ![Image of Jimbo](jimbo.jpg)<br>
 Here's a cool photo of me.<br>
-Here's a lobster named Daniel :lobster:.
+Here's a lobster named Daniel 🦞.
 
 ### A little bit about me...
 
