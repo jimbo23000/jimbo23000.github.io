@@ -5,9 +5,9 @@ Here's a cool photo of me.<br>
 
 ### A little bit about me...
 
-I have been programming since I was a sophomore in high school.<br>
-I'm experienced in the Java programming language and have a bit of experience working in C#.<br>
-I have a lot of interesting projects planned for the future, so stay tuned.
+I have been programming since I was a sophomore in high school, which feels like a long time ago.<br>
+I'm have a lot of experience working in Java. I also have a bit of experience working in C#.<br>
+I have a lot of interesting projects planned for the future, so check back in from time to time.
 
 ### Projects to come...
 
