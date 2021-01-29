@@ -11,7 +11,7 @@ I have a lot of interesting projects planned for the future, so check back in fr
 
 ### Projects to come...
 
-- [ ] Blockchain
+- [ ] [Blockchain](https://github.com/jimbo23000/Blockchain)
 - [ ] Untitled RPG
 - [ ] Untitled Dungeon Crawler
 
