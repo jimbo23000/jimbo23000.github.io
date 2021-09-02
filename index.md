@@ -17,4 +17,4 @@ I have a lot of interesting projects planned for the future, so check back in fr
 
 ### This website is subject to change.
 
-I'm still learning how to utilize the full potential of GitHub and Markdow, so I'll be updating the website as I learn more.
+I'm still learning how to utilize the full potential of GitHub and Markdown, so I'll be updating the website as I learn more.
