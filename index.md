@@ -1,12 +1,12 @@
 ## Welcome!
 
+Here's an old photo of me:<br>
 ![Image of Jimbo](jimbo.jpg)<br>
-Here's a cool photo of me.<br>
 
 ### A little bit about me...
 
-I have been programming since I was a sophomore in high school, which feels like a long time ago.<br>
-I have a lot of experience working in Java and I use it all the time. I also have a bit of experience working in C#.<br>
+I have been programming since I was a sophomore in high school. At the moment I'm a freshman in college.<br>
+I learned the fundementals of programming in Java and work in multiple languages now.<br>
 I have a lot of interesting projects planned for the future, so check back in from time to time.
 
 ### Projects to come...
