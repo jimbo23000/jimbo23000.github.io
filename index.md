@@ -10,7 +10,7 @@ I have a lot of interesting projects planned for the future, so check back in fr
 
 ### Links to projects:
 
-- [ ] [GitHub Page](https://github.com/jimbo23000/jimbo23000.github.io)
+- [ ] [GitHub Website](https://github.com/jimbo23000/jimbo23000.github.io)
 - [ ] [Blockchain](https://github.com/jimbo23000/Blockchain)
 
 ### This website is subject to change.
