@@ -1,4 +1,5 @@
-## Welcome!
+## Welcome to Jimbo's Website!
+### Welcome!
 
 Here's an old photo of me:<br>
 ![Image of Jimbo](jimbo.jpg)<br>
