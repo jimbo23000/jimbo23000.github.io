@@ -1,6 +1,6 @@
 ## Welcome to Jimbo's Website!
 Here's an old photo of me:<br>
-![Image of Jimbo](https://github.com/jimbo23000/jimbo23000.github.io/blob/master/jimbo.jpg)<br>
+![Image of Jimbo](jimbo.jpg)<br>
 
 ### A little bit about me...
 
