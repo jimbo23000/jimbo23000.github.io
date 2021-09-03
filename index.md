@@ -1,6 +1,4 @@
 ## Welcome to Jimbo's Website!
-### Welcome!
-
 Here's an old photo of me:<br>
 ![Image of Jimbo](jimbo.jpg)<br>
 
@@ -10,11 +8,10 @@ I have been programming since I was a sophomore in high school. At the moment I'
 I learned the fundementals of programming in Java and work in multiple languages now.<br>
 I have a lot of interesting projects planned for the future, so check back in from time to time.
 
-### Projects to come...
+### Links to projects:
 
+- [ ] [GitHub Page](https://github.com/jimbo23000/jimbo23000.github.io)
 - [ ] [Blockchain](https://github.com/jimbo23000/Blockchain)
-- [ ] Untitled RPG
-- [ ] Untitled OS
 
 ### This website is subject to change.
 
