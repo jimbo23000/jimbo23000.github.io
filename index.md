@@ -7,3 +7,4 @@ Seeking out an internship in either the Austin or Houston area for the Summer of
 ## Projects:
 
 - [X] [GitHub Website](https://github.com/jimbo23000/jimbo23000.github.io)
+- [ ] [Discord Gambling-Bot](https://github.com/jimbo23000/Discord-Gambling-Bot.git)
