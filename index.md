@@ -1,5 +1,9 @@
-## About Me:
-![Image of myself](myself.jpg)<br>
+<p align="center">
+  <img alt="Picture of me (handsome I know right?)" width="300" height="auto" src="jpegs/first_image.jpeg" hspace="10">
+  <img alt="Picture of Simba" width="300" height="auto" src="jpegs/second_image.jpeg">
+</p>
+
+# About Me:
 Currently a Computer Science Junior at the University of Texas at Austin with a focus in networking.<br>
 Proficient in Java, C, C++, and Python. I'm familiar with both front-end and back-end development.<br>
 Seeking out an internship in either the Austin or Houston area for the Summer of 2023.
