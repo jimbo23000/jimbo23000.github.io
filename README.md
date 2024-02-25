@@ -1,2 +1,2 @@
-# jimbo23000.github.io
-My website; contains information about myself and links to current and future projects.
+# Website Information
+Designed for prospective organizations and companies to view past and current projects, as well as future plans.
