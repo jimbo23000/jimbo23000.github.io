@@ -1,14 +1,18 @@
 <p align="center">
-  <img alt="Picture of me (handsome I know right?)" width="300" height="auto" src="jpegs/first_image.jpeg" hspace="10">
-  <img alt="Picture of Simba" width="300" height="auto" src="jpegs/second_image.jpeg">
+  <img alt="Picture of me (handsome I know right?)" width="300" height="auto" src="jpegs/first_image.jpeg">
+  <img alt="Picture of Simba" width="300" height="auto" src="jpegs/second_image.jpeg" hspace="10">
 </p>
 
-# About Me:
-Currently a Computer Science Junior at the University of Texas at Austin with a focus in networking.<br>
-Proficient in Java, C, C++, and Python. I'm familiar with both front-end and back-end development.<br>
-Seeking out an internship in either the Austin or Houston area for the Summer of 2023.
+<h1 align="center">
+  A Little Bit About Me...
+</h1>
 
-## Projects:
+>My name's Antonio Ramos, I'm a Puerto Rican from Houston, Texas and I graduated in the top one percent of my class as Summa Cum Laude from Clear Springs High School in the Spring of 2021. Currently, I'm a junior pursuing a major in computer science and a minor in Spanish at the University of Texas at Austin. Moreover, I'm actively working with the Austin non-profit [Senior Access](https://senioraccesstx.org/) as a website and database engineer.
 
+
+<h1 align="center">
+  Repositories and Future Project Plans
+</h1>
 - [X] [GitHub Website](https://github.com/jimbo23000/jimbo23000.github.io)
-- [ ] [Discord Gambling-Bot](https://github.com/jimbo23000/Discord-Gambling-Bot.git)
+  - [X] Biannual Semester Maintance
+- [ ] [Discord Bot Framework](https://github.com/jimbo23000/Discord-Bot-Framework)
