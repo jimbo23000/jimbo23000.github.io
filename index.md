@@ -9,10 +9,8 @@
 
 >My name's Antonio Ramos, I'm a Puerto Rican from Houston, Texas and I graduated in the top one percent of my class as Summa Cum Laude from Clear Springs High School in the Spring of 2021. Currently, I'm a junior pursuing a major in computer science and a minor in Spanish at the University of Texas at Austin. Moreover, I'm actively working with the Austin non-profit [Senior Access](https://senioraccesstx.org/) as a website and database engineer.
 
-
 <h1 align="center">
   Repositories and Future Project Plans
 </h1>
 - [X] [GitHub Website](https://github.com/jimbo23000/jimbo23000.github.io)
-  - [X] Biannual Semester Maintance
 - [ ] [Discord Bot Framework](https://github.com/jimbo23000/Discord-Bot-Framework)
