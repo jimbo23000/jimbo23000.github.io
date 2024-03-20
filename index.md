@@ -29,4 +29,4 @@ Name | Status | Version
 :--: | :----: | :-----:
 [*Jimbo's Website*](https://github.com/jimbo23000/jimbo23000.github.io)                      | Release   | 1.0
 [*Discord Bot Framework*](https://github.com/jimbo23000/Discord-Bot-Framework)               | Pre-Alpha | -
-[*Donor Information Executable*](https://github.com/jimbo23000/Donor-Information-Executable) | Beta      | 1.0
+[*Donor Information Executable*](https://github.com/jimbo23000/Donor-Information-Executable) | Beta      | 1.1
