@@ -1,3 +1,7 @@
+---
+layout: default
+title: About
+---
 <p align="center">
   <img alt="Picture of me (handsome I know right?)" width="300" height="auto" src="jpegs/first_image.jpeg">
   <img alt="Picture of Simba" width="300" height="auto" src="jpegs/second_image.jpeg" hspace="10">
