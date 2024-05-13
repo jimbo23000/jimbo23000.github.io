@@ -21,6 +21,9 @@
     display: block;
     text-align: center;
     text-decoration: none;
+
+    /* Figure out how to use font.scss */
+    font-weight: 700;
 }
 .navbar a:hover {
     background-color: hsl(0, 0%, 25%);
