@@ -1,0 +1,26 @@
+.author {
+    height: 125px;
+    width: 400px;
+
+    margin: 8px;
+    padding: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.author h2 {
+    margin: 8px;
+    padding: 0px;
+
+    font-style: italic;
+}
+.author img {
+    height: 125px;
+    width: 125px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 1px solid black;
+}
