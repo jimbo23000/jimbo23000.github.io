@@ -1,4 +1,4 @@
-.navbar ul {
+.navigation ul {
     background-color: hsl(0, 0%, 50%);
 
     margin: 0px;
@@ -7,10 +7,10 @@
     overflow: hidden;
     list-style-type: none;
 }
-.navbar li {
+.navigation li {
     float:left;
 }
-.navbar a {
+.navigation a {
     color: hsl(0, 0%, 100%);
 
     padding-left: 30px;
@@ -25,9 +25,9 @@
     /* Figure out how to use font.scss */
     font-weight: 700;
 }
-.navbar a:hover {
+.navigation a:hover {
     background-color: hsl(0, 0%, 25%);
 }
-.navbar .current {
+.navigation .current {
     background-color: hsl(0, 0%, 25%);
 }
