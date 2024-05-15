@@ -2,15 +2,23 @@
 layout: default
 ---
 <div class="author">
-  <h1>{{ page.name }}</h1>
-  <h2>{{ page.position }}</h2>
+  <h1>
+    {{ page.name }}
+  </h1>
+  <h2 class="anonymous-pro-regular-italic">
+    {{ page.position }}
+  </h2>
   <img src="{{ page.pfp_path }}" alt="{{ page.pfp_alt_text }}">
 </div>
-<p>{{ content }}</p>
-<h2>Posts</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.username %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{{ content }}
+<div class="blog">
+  <h2>
+    Author's Posts
+  </h2>
+  <ul>
+    {% assign filtered_posts = site.posts | where: 'author', page.username %}
+    {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
