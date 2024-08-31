@@ -13,7 +13,7 @@ layout: default
 {{ content }}
 <div class="blog">
   <h2>
-    Author's Posts
+    {{ page.username }}'s Posts
   </h2>
   <ul>
     {% assign filtered_posts = site.posts | where: 'author', page.username %}

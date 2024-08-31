@@ -1,0 +1,21 @@
+.navigation #links ul {
+    background-color: black;
+    display: flex;
+
+    margin: 0%;
+    padding: 0%;
+}   
+.navigation #links li {
+    background-color: black;
+    list-style: none;
+
+    margin: 0%;
+    padding: 1%;
+}   
+.navigation #links a {
+    color: white;
+    text-decoration: none;
+}
+.navigation #links a:hover {
+    color: grey;
+}
