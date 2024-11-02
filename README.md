@@ -1,6 +1,9 @@
 # Website Information
-In the process of transitioning the website from Markdown to HTML and CSS, in order to have greater creative freedom.
-* Implementing social aspects, such as a blog.
-* Implementing professional links to platforms, such as LinkedIn.
-    * Intend to host resume download here as well.
-* Moreover, designing custom assets for the entire website.
+This HTML and CSS-based website, hosted on GitHub Pages, provides a comprehensive overview of information about me.
+
+## Planned Features
+* The main page will feature my resume with options for viewing and downloading.
+* The projects page will include links to both academic and personal projects, along with setup information.
+    * Executable versions of the projects may be hosted using React for an interactive experience.
+* The website will feature consistent styling across all pages using CSS and Bootstrap.
+* The blog interface will be overhauled, potentially including a search functionality for easier navigation.
