@@ -12,8 +12,10 @@ layout: default
       - <a href="{{ member.url }}">{{ member.name }}</a>
     {% endif %}
   </p>
-  {% if page.pfp %}
-    <img src="{{ site.baseurl }}/assets/images/{{ page.pfp }}" height="200">
+  {% if member %}
+    {% if member.pfp %}
+      <img src="{{ site.baseurl }}/assets/images/{{ member.pfp }}" height="200">
+    {% endif %}
   {% endif %}
 </div>
 {{ content }}
