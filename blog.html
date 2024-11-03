@@ -8,10 +8,15 @@ title: Blog
   <ul>
     {% for post in site.posts %}
       <li>
+        {% assign filename = post.path | split: '/' | last | split: '.' | first %}
+        {% assign parts = filename | split: '-' %}
+        {% assign title = parts[3] %}
+        {% for part in parts offset:4 %}
+          {% assign title = title | append: ' ' | append: part %}
+        {% endfor %}
         <h2>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ title }}</a>
         </h2>
-        {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
