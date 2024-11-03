@@ -7,9 +7,9 @@ layout: default
   </h1>
   <p>
     {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'username', page.author | first %}
-    {% if author %}
-      - <a href="{{ author.url }}">{{ author.name }}</a>
+    {% assign member = site.members | where: 'username', page.member | first %}
+    {% if member %}
+      - <a href="{{ member.url }}">{{ member.name }}</a>
     {% endif %}
   </p>
   {% if page.pfp %}

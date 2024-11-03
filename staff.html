@@ -6,11 +6,11 @@ title: Staff
     Staff
   </h1>
   <ul>
-    {% for author in site.authors %}
+    {% for member in site.members %}
       <li>
-        <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-        <h3 class="anonymous-pro-regular-italic">{{ author.position }}</h3>
-        <p>{{ author.content | markdownify }}</p>
+        <h2><a href="{{ member.url }}">{{ member.name }}</a></h2>
+        <h3 class="anonymous-pro-regular-italic">{{ member.position }}</h3>
+        <p>{{ member.content | markdownify }}</p>
       </li>
     {% endfor %}
   </ul>
