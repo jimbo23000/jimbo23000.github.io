@@ -10,12 +10,12 @@ title: Blog
       <li>
         {% assign filename = post.path | split: '/' | last | split: '.' | first %}
         {% assign parts = filename | split: '-' %}
-        {% assign title = parts[3] %}
+        {% assign filename = parts[3] %}
         {% for part in parts offset:4 %}
-          {% assign title = title | append: ' ' | append: part %}
+          {% assign filename = filename | append: ' ' | append: part %}
         {% endfor %}
         <h2>
-          <a href="{{ post.url }}">{{ title }}</a>
+          <a href="{{ post.url }}">{{ filename }}</a>
         </h2>
       </li>
     {% endfor %}
