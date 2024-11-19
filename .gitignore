@@ -1,2 +1,4 @@
 .vscode
 _site
+# Prevents Finder from adding DS_Store
+.DS_Store
