@@ -1,11 +1,7 @@
-<div class="navigation">
-  <nav>
-    <div class="links anonymous-pro-bold">
-      <ul>
-        {% for item in site.data.navigation %}
-          <li><a href="{{ item.link }}" class="{% if item.link == page.url %}current{% endif %}">{{ item.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </nav>
-</div>
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}" class="{% if item.link == page.url %}current_page anonymous-pro-bold{% endif %}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

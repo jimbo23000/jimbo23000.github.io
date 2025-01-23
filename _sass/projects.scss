@@ -1,0 +1,45 @@
+.projects {
+    overflow-x: auto;
+
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.projects table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: left;
+
+    width: 100%;
+}
+
+.projects tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.projects tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.projects tr:hover {
+    background-color: #cccccc;
+}
+
+.projects th {
+    background-color: #a74d0f;
+    font-size: 20px;
+
+    padding: 1%;
+}
+
+.projects td {
+    padding: 1%;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}

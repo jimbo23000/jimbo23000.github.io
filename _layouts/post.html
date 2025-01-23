@@ -6,10 +6,10 @@ layout: default
     {{ page.title }}
   </h1>
   <p>
-    {{ page.date | date_to_string }}
+    Posted on {{ page.date | date: "%B %d, %Y" }}
     {% assign member = site.members | where: 'username', page.member | first %}
     {% if member %}
-      - <a href="{{ member.url }}">{{ member.name }}</a>
+      by <a href="{{ member.url }}">{{ member.name }}</a>
     {% endif %}
   </p>
   {% if member %}

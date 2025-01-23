@@ -1,20 +1,31 @@
-.navigation .links ul {
-    background-color: hsl(0, 0, 25%);
+nav {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul {
+    background-color: #b9713f;
     display: flex;
+    list-style: none;
 
     margin: 0%;
     padding: 0%;
 }   
-.navigation .links li {
-    list-style: none;
 
-    margin: 0%;
+nav ul li {
     padding: 1%;
 }   
-.navigation .links a {
-    color: white;
-    text-decoration: none;
+
+nav ul li:hover {
+    background-color: #a74d0f;
 }
-.navigation .links li:hover {
-    background-color: hsl(0, 0, 10%)
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav .current_page {
+    border-bottom: 2px solid black;
 }

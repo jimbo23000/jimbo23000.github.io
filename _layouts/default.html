@@ -1,19 +1,19 @@
 <!doctype html>
 <html>
   <head>
-    <div class="metadata">
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="/assets/css/styles.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-      <script src="https://kit.fontawesome.com/9bd307179c.js" crossorigin="anonymous"></script>
-    </div>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <script src="https://kit.fontawesome.com/9bd307179c.js" crossorigin="anonymous"></script>
     <title id="title">{{ page.title }}</title>
   </head>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <div class="content">
+      {{ content }}
+    </div>
     {% include footer.html %}
   </body>
 </html>

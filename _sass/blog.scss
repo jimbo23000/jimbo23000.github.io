@@ -1,0 +1,44 @@
+.blog {
+    margin: 1%;
+}
+
+.blog .latest_post h1 {
+    margin: 0%;
+}
+
+.blog .latest_post h2 {
+    margin: 1%;
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.blog .blog_posts {
+    background-color: #dcb89f;
+    display: none;
+    overflow: hidden;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.blog .blog_posts ul {
+    list-style: none;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+.blog .blog_posts ul li {
+    font-size: 16px;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

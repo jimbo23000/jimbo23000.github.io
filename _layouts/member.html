@@ -5,26 +5,56 @@ layout: default
   <h1>
     {{ page.name }}
   </h1>
-  <h2 class="anonymous-pro-regular-italic">
+  <h2 class="anonymous-pro-regular-italic" id="position">
     {{ page.position }}
   </h2>
   <img src="{{ site.baseurl }}/assets/images/{{ page.pfp }}" alt="{{ page.pfp_alt_text }}" height="200">
-</div>
-{{ content }}
-<div class="blog">
+  <div class="content">
+    {{ content }}
+  </div>
   <h2>
-    {{ page.username }}'s Posts
+    {{ page.username }}'s Blog Posts
   </h2>
-  <ul>
-    {% assign filtered_posts = site.posts | where: 'member', page.username %}
-    {% for post in filtered_posts %}
-      {% assign filename = post.path | split: '/' | last | split: '.' | first %}
-      {% assign parts = filename | split: '-' %}
-      {% assign filename = parts[3] %}
-      {% for part in parts offset:4 %}
-        {% assign filename = filename | append: ' ' | append: part %}
-      {% endfor %}
-      <li><a href="{{ post.url }}">{{ filename }}</a></li>
-    {% endfor %}
-  </ul>
 </div>
+<div class="blog">
+  {% assign categories = "" %}
+  {% assign categorized_posts = "" %}
+  {% assign filtered_posts = site.posts | where: 'member', page.username %}
+  {% for post in filtered_posts %}
+    {% assign filename = post.path | split: '/' | last | split: '.' | first %}
+    {% assign parts = filename | split: '-' %}
+    {% assign category = parts[3] %}
+    {% assign filename = category %}
+    {% for part in parts offset:4 %}
+      {% assign filename = filename | append: ' ' | append: part %}
+    {% endfor %}
+    {% unless categories contains category %}
+      {% assign categories = categories | append: category | append: ',' %}
+    {% endunless %}
+    {% assign categorized_posts = categorized_posts | append: category | append: '|' | append: post.url | append: ':' | append: filename | append: '|' | append: post.date | append: ',' %}
+  {% endfor %}
+  {% assign category_list = categories | split: ',' | uniq %}
+  {% for category in category_list %}
+    {% if category != "" %}
+      <button class="collapsible">{{ category }} Blog Posts</button>
+      <div class="blog_posts">
+        <ul>
+          {% assign posts_in_category = categorized_posts | split: ',' %}
+          {% for post_data in posts_in_category %}
+            {% assign post_parts = post_data | split: '|' %}
+            {% if post_parts[0] == category %}
+              {% assign post_details = post_parts[1] | split: ':' %}
+              {% assign post_title = post_details[1] %}
+              {% assign post_date = post_parts[2] | date: "%B %d, %Y" %}
+              <li>
+                <a href="{{ post_details[0] }}">{{ post_title }}</a> &emsp; Posted on {{ post_date }}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}  
+</div>
+
+<script src="../collapsible.js"></script>
