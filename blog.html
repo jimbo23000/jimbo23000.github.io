@@ -10,7 +10,7 @@ title: Blog
     <h2>
       <a href="{{ latest_post.url }}">{{ latest_post.title }}</a>
     </h2>
-    <p>{{ latest_post.excerpt }}</p>
+    <p><medium>{{ latest_post.excerpt }}</medium></p>
     <p><small>Posted on {{ latest_post.date | date: "%B %d, %Y" }}</small></p>
   </div>
   {% assign categories = "" %}
