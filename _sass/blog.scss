@@ -18,6 +18,22 @@
     text-decoration: underline;
 }
 
+.blog .collapsible {
+    background-color: #ca946f;
+    border: none;
+    font-size: large;
+    outline: none;
+    text-align: left;
+
+    width: 100%;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.blog .collapsible:hover {
+    background-color: #b9713f;
+}
+
 .blog .blog_posts {
     background-color: #dcb89f;
     display: none;
