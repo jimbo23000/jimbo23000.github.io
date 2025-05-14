@@ -5,17 +5,15 @@ layout: default
   <h1>
     {{ page.title }}
   </h1>
+  {% assign member = site.members | where: 'username', page.member | first %}
   <p>
     Posted on {{ page.date | date: "%B %d, %Y" }}
-    {% assign member = site.members | where: 'username', page.member | first %}
     {% if member %}
       by <a href="{{ member.url }}">{{ member.name }}</a>
     {% endif %}
   </p>
-  {% if member %}
-    {% if member.pfp %}
-      <img src="{{ site.baseurl }}/assets/images/{{ member.pfp }}" height="200">
-    {% endif %}
+  {% if member and member.pfp %}
+    <img src="{{ site.baseurl }}/assets/images/{{ member.pfp }}" height="200">
   {% endif %}
 </div>
 {{ content }}
