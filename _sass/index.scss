@@ -1,3 +1,12 @@
 .index h1 {
     margin: 1%;
 }
+
+.index iframe {
+    border: none;
+    display: block;
+
+    width: 100vh;
+    height: 100vh;
+    margin: 1%;
+}
