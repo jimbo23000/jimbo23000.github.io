@@ -28,7 +28,7 @@ title: Blog
           "member": "{{ post.member }}",
           "url": "{{ post.url }}",
           "path": "{{ post.path }}",
-          "date": "{{ post.date }}"
+          "date": "{{ post.date | date_to_xmlschema }}"
         }
         {% unless forloop.last %},
         {% endunless %}
